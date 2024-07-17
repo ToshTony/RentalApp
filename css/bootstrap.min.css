@@ -17,7 +17,7 @@
     --bs-white:#fff;
     --bs-gray:#6c757d;
     --bs-gray-dark:#343a40;
-    --bs-primary:maroon;
+    --bs-primary:pink;
     --bs-secondary:#EFA286;
     --bs-success:#198754;
     --bs-info:#0dcaf0;
@@ -6207,7 +6207,7 @@
     word-break:break-word !important
   }
   .text-primary {
-    color:maroon !important
+    color:pink !important
   }
   .text-secondary {
     color:#efa286 !important
