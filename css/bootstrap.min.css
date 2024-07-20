@@ -17,7 +17,7 @@
     --bs-white:#fff;
     --bs-gray:#6c757d;
     --bs-gray-dark:#343a40;
-    --bs-primary:pink;
+    --bs-primary:purple;
     --bs-secondary:#EFA286;
     --bs-success:#198754;
     --bs-info:#0dcaf0;
@@ -2328,13 +2328,14 @@
   }
   .btn-primary {
     color:#000;
-    background-color:#15b9d9;
-    border-color:#15b9d9
+    background-color:teal;
+    border-color:pink;
   }
+
   .btn-primary:hover {
     color:#000;
     background-color:#38c4df;
-    border-color:#2cc0dd
+    border-color:gold;
   }
   .btn-check:focus+.btn-primary,.btn-primary:focus {
     color:#000;
@@ -6207,10 +6208,10 @@
     word-break:break-word !important
   }
   .text-primary {
-    color:pink !important
+    color:purple !important
   }
   .text-secondary {
-    color:#efa286 !important
+    color:gold !important
   }
   .text-success {
     color:#198754 !important

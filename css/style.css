@@ -480,9 +480,10 @@
     
 }
 
+/* removed the hover bg color from the image */
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: rgba(214, 21, 217, .3);
+    /* background: rgba(214, 21, 217, .3); */
 }
 
 .service .service-item .service-img:hover img {
@@ -504,13 +505,13 @@
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: rgba(21, 185, 217, .5);
+    background: rgba(106, 15, 176, 0.5);
     transition: 0.5s;
     z-index: 3;
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(217, 21, 188, 0.5);
+    background: rgba(0, 128, 128, 0.75);
     height: 100%;
 }
 
@@ -525,7 +526,8 @@
     z-index: 9;
 }
 .service .service-item:hover .service-content .service-content-inner h5 {
-    color: var(--bs-secondary);
+    /* color: var(--bs-secondary); */
+    color: purple;
 }
 
 /*** Service End ***/
@@ -614,7 +616,7 @@
 
 /*** Appointment Start ***/
 .appointment {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/caru2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -622,7 +624,7 @@
 }
 
 .appointment .appointment-form {
-    background: rgba(239, 162, 134, 0.3);
+    background: rgba(255, 215, 0, 0.5);
 }
 
 .appointment .appointment-form .btn.btn-primary {
@@ -771,8 +773,9 @@
     margin-bottom: 145px;
 }
 
+/* removed the image hover thing */
 .team .team-item:hover .team-img::before {
-    background: rgba(21, 185, 217, .3);
+    /* background: rgba(21, 185, 217, .3); */
 }
 
 .team .team-item .team-content {
@@ -798,7 +801,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 128, 128, 0.9), rgba(0, 128, 128, 0.9)), url(../img/caru3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1152,7 +1155,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/caru3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
