@@ -61,3 +61,4 @@ Gold
 
 route config in scriptApp
 rebuilding...
+the working dir was pointing to another location
