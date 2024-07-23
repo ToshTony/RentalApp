@@ -57,3 +57,7 @@ Purple
 Teal 
 pink
 Gold
+
+
+route config in scriptApp
+rebuilding...
